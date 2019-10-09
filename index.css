@@ -57,3 +57,19 @@ li a:hover {
     height: 92px;
     width: 272px;
 }
+
+.main input[type=search] {
+    width: 484px;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    background-image: url('./icons/baseline_search_black_24dp.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px; 
+    padding: 12px 20px 12px 40px;
+}
