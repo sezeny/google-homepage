@@ -1,7 +1,54 @@
 ul {
     background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 li {
+    float: left;
+}
+
+li a{
+    display: block;
     text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    opacity: 0.75;
+    font-family: arial, sans-serif;
+}
+
+li button {
+    background: #4387fd;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    margin: 7px;
+}
+
+.login a{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 12px;
+    opacity: unset;
+    line-height: 28px;
+}
+
+.start-app-menu a {
+    padding: 12px 15px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 109px;
+    width: 50%;
 }
